@@ -1,0 +1,22 @@
+.about-me-section {
+    background-color: #F6F6F6;
+}
+.about-me-section-title {
+    margin-bottom: 29px;
+    font-size: 34px;
+    line-height: 1.23;
+    text-align: center;
+    color: #000000;
+@media screen and (min-width: 768px) {
+    margin-bottom: 18px;
+}
+}
+.about-me-section-text {
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: $secondary-color;
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}

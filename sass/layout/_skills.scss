@@ -1,0 +1,60 @@
+.skills-section {
+@media screen and (max-width: 767px) {
+    text-align: center;
+ }
+} 
+.skills-section-title {
+    margin-bottom: 50px;
+    font-size: 34px;
+    line-height: 1/23;
+    text-align: center;
+    color:$secondary-color;
+@media screen and (min-width: 768px) {
+     margin-bottom: 70px;
+    }
+}
+.skills-section-subtitle {
+    margin-bottom: 70px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color:$secondary-color;
+@media screen and (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+.skills-section-list-item {
+    text-align: center;
+@media screen and (max-width: 767px) {
+    &:not(:last-child) {
+        margin-bottom: 80px;
+    }
+  }  
+}
+.skills-section-list-icon {
+    margin-bottom: 25px;
+}
+.skills-section-list-icon-title {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.21;
+    color: $main-color;
+    text-align: center;
+}
+.skills-section-list {
+@media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+.skills-section-list-icon {
+@media screen and (min-width: 768px) {
+       
+    }    
+}
+.last-icon {
+@media screen and (min-width: 768px) {
+    margin-bottom: 55px;
+    }   
+}

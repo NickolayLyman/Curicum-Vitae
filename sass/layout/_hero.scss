@@ -1,0 +1,29 @@
+.hero-section {
+    padding-top: 0;
+}
+.hero-section-wrapper {
+@media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.hero-section-title {
+    font-size: 47px;
+    line-height: 1.23;
+    color: $secondary-color;
+@media screen and (max-width: 767px) {
+    margin-bottom: 23px;
+}
+}
+.hero-section-subtitle {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #090909;
+@media screen and (max-width: 767px) {
+    margin-bottom: 35px;
+ }
+}
+.hero-section-img {
+    width: 100%;
+}

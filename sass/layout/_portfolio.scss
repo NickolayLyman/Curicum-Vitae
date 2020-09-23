@@ -1,0 +1,37 @@
+.portfolio-section {
+    background-color: #F6F6F6;
+}
+.portfolio-section-title {
+    font-size: 34px;
+    line-height: 1.23;
+    text-align: center;
+    color: $secondary-color;
+@media screen and (max-width: 767px) {
+  margin-bottom: 65px;
+ }
+ @media screen and (min-width: 768px) {
+  margin-bottom: 45px; 
+ }
+}
+.portfolio-section-img {
+    width: 100%;
+@media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+@media screen and (min-width: 768px) {
+    margin-bottom: 45px; 
+  }
+}
+.portfolio-section-subtitle {
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    text-decoration-line: underline;
+    color: $secondary-color;
+@media screen and (max-width: 767px) {
+    margin-bottom: 77px;
+ }
+@media screen and (min-width: 768px) {
+    margin-bottom: 99px; 
+    }
+}
